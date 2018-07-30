@@ -471,6 +471,8 @@ print(svmRadial_model)
 election_test$predict <- predict(svmRadial_model, election_test)
 confusionMatrix(data = election_test$predict, reference = election_test$isBot)
 
+# Stop the parellal processing
+stopCluster(cl)
 
 # Generate the ROC curve and calculate the AUC
 library(pROC)
