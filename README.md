@@ -1,4 +1,4 @@
-# Twitter Bot Detection Utilizing Multiple Machine Learning Algorithms
+## Twitter Bot Detection Utilizing Multiple Machine Learning Algorithms
 
 The purpose of this project is to apply multiple machine learning algorithms to develop bot-detection
 models for Twitter. Using exploratory analysis, we explored the Twitter metadata and found useful
